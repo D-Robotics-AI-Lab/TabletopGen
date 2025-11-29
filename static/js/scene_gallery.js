@@ -14,11 +14,14 @@ const HDR_PATH = 'static/textures/environment.hdr';
 
 const SCENE_IDS = [10,32,24,160,51,141,52,74,161,72,55,70,63,95,36,17,164,60,];
 
+// GitHub Release 基础路径
+const RELEASE_BASE = "https://github.com/D-Robotics-AI-Lab/TabletopGen/releases/download/v1.0/";
+
 // 自动生成场景配置
 function generateScenes(ids) {
     return ids.map((id, index) => ({
         id: index+1,
-        glb: `static/models/scene_${id}.glb`,
+        glb: `${RELEASE_BASE}scene_${id}.glb`,
         img: `static/images/models/scene_${id}.png`
     }));
 }
@@ -297,4 +300,5 @@ function animate() {
     requestAnimationFrame(animate);
     controls.update();
     composer.render();
+
 }
