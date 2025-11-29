@@ -4,6 +4,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
+import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
 import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
 import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
 import { OutlinePass } from "three/addons/postprocessing/OutlinePass.js";
@@ -152,6 +153,13 @@ function loadScene(index) {
 
     // 加载新模型
     const loader = new GLTFLoader();
+    // !!! 新增：配置 Draco 解码器 !!!
+    const dracoLoader = new DRACOLoader();
+    // 使用 CDN 路径，对应 three.js 版本 0.160.0
+    dracoLoader.setDecoderPath('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/draco/');
+    dracoLoader.setDecoderConfig({ type: 'js' }); // 强制使用 JS 版解码器以获得更好兼容性
+    loader.setDRACOLoader(dracoLoader);
+
     loader.load(data.glb, (gltf) => {
         if (loaderText) loaderText.style.display = 'none';
         loadedModel = gltf.scene;
@@ -166,6 +174,9 @@ function loadScene(index) {
         const center = box.getCenter(new THREE.Vector3());
         loadedModel.position.sub(center);
         fitCamera(loadedModel);
+
+        // 加载完成后销毁 dracoLoader 释放内存
+        dracoLoader.dispose();
 
     }, undefined, (err) => {
         console.error(err);
@@ -302,6 +313,7 @@ function animate() {
     composer.render();
 
 }
+
 
 
 
