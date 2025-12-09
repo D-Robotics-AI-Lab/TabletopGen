@@ -23,7 +23,7 @@ pip install --extra-index-url https://download.pytorch.org/whl/cu118 torch==2.6.
 
 echo "Compiling Grounded-SAM-2..."
 cd Grounded-SAM-2
-export CUDA_HOME=/usr/local/cuda-11.8 
+# CUDA_HOME should be exported by the user before running this script
 pip install --no-build-isolation -e .
 
 echo "Installing Grounding DINO..."

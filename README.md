@@ -75,7 +75,11 @@ We provide a shell script that automatically:
 3.  Creates the secondary environment `rotation` (CUDA 12.1, PyTorch3D).
 
 **For Linux Users:**
+
+Please export your local CUDA path before running the script (required for compiling Grounded-SAM-2):
 ```bash
+# Replace with your own CUDA path (e.g., /usr/local/cuda-11.8)
+export CUDA_HOME=/path/to/cuda-11.8 
 bash install_env.sh
 ```
 > ☕ **Note:** This process involves compiling CUDA extensions locally. It may take a few minutes depending on your network and CPU.
