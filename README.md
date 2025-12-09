@@ -161,7 +161,7 @@ We would like to express our gratitude to the following projects and services th
 - [Volcengine](https://www.volcengine.com/product/doubao).
 - [Google AI Studio](https://aistudio.google.com/).
 - [OpenAI](https://openai.com/).
-- [OpenRouter](https://openrouter.ai/)
+- [OpenRouter](https://openrouter.ai/).
 
 ## 📝 Citation
 
