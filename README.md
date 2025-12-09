@@ -153,6 +153,15 @@ python isaac_final_scene.py
 
 ## 💝 Acknowledgments
 
+We would like to express our gratitude to the following projects and services that made this work possible:
+
+- [Grounded-SAM-2](https://github.com/IDEA-Research/Grounded-SAM-2).
+- [BiRefNet](https://github.com/ZhengPeng7/BiRefNet).
+- [Hunyuan3D](https://3d.hunyuan.tencent.com/).
+- [Volcengine](https://www.volcengine.com/product/doubao).
+- [Google AI Studio](https://aistudio.google.com/).
+- [OpenAI](https://openai.com/).
+- [OpenRouter](https://openrouter.ai/)
 
 ## 📝 Citation
 
