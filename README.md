@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1>TabletopGen: Instance-Level Interactive 3D Tabletop Scene Generation from Text or Single Image</h1>
+<h1><span style="color: #FF8C00;">T</span>abletopGen: <span style="color: #800080;">I</span>nstance-Level Interactive 3D Tabletop Scene Generation from Text or Single Image</h1>
 
 <img src="assets/teaser.png" width="100%" alt="Teaser Image">
 
 <br>
 
-<div>
+<div style="font-size: 1.5em;">
     <strong>Ziqian Wang</strong><sup>1,3,2*</sup>,
     <strong>Yonghao He</strong><sup>2*†</sup>,
     <strong>Licheng Yang</strong><sup>1,3</sup>,
@@ -21,15 +21,15 @@
 
 <br>
 
-<div style="text-align: center;">
+<div style="text-align: center;font-size: 1.5em;">
     <sup>1</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences<br>
     <sup>2</sup>D-Robotics<br>
     <sup>3</sup>State Key Laboratory of Multimodal Artificial Intelligence Systems (MAIS), <br> Institute of Automation, Chinese Academy of Sciences<br>
     <sup>4</sup>Horizon Robotics
 </div>
 
-<div>
-    <sup>*</sup>Equal contribution &emsp; <sup>†</sup>Project Leader &emsp; <sup>✉</sup>Corresponding author
+<div style="font-size: 1.5em;font-weight: bold;">
+    <sup>*</sup><u>Equal contribution</u> &emsp; <sup>†</sup><u>Project Lead</u> &emsp; <sup>✉</sup><u>Corresponding author</u>
 </div>
 
 <br>
@@ -40,10 +40,15 @@
 
 <br>
 
-https://github.com/user-attachments/assets/d266a7bd-308b-4f45-8733-5b5ccf227bc2
+<div align="center">
+<video src="https://github.com/user-attachments/assets/d266a7bd-308b-4f45-8733-5b5ccf227bc2" controls width="80%"></video>
+</div>
 
 </div>
 
+## 🎉 Updates
+
+- **[2025-12-10]** 🎉 TabletopGen is now open source!
 
 ## 🧩 Abstract
 
@@ -145,6 +150,9 @@ For a scene assembly with full physical properties, use the Isaac Sim script.
 # Run the Isaac Sim visualization script
 python isaac_final_scene.py
 ```
+
+## 💝 Acknowledgments
+
 
 ## 📝 Citation
 
