@@ -1,0 +1,95 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/NVIDIA/Assets/Skies/Cloudy/abandoned_parking_4k.hdr",
+            "source_hash": "827fb5fb639011c0a9789db16d33119f583c3e7d",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/NVIDIA/Assets/Skies/Cloudy/abandoned_parking_4k.hdr",
+            "target_hash": "8e6c2ecb8cc25562be23b5cdb4f450bbf7a2889d"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Base_Color.png",
+            "source_hash": "23ab2619f96d0d21b84b71f7bdbcadfc4dfb02b1",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Base_Color.png",
+            "target_hash": "7ad10c5c18de7384f6e607d14a1fe181eb8228c7"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Mixed_AO.png",
+            "source_hash": "ba9c5c26308649dc929503ebc03c7657b1a0c495",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Mixed_AO.png",
+            "target_hash": "a45e5e6b46911cb666a41fdb51ec2c8b987a404a"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Normal_DirectX.png",
+            "source_hash": "230ae920130f17373ab35065019715690c0b517c",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Normal_DirectX.png",
+            "target_hash": "1f4683fcfe81724a24dad28c4e04afda7860048c"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Roughness.png",
+            "source_hash": "f9378045d6c65612ef45c0fa5c812fac4a0a2ed9",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/DefaultMaterial_Roughness.png",
+            "target_hash": "6ae024ae1e0770a05b42e1517b951a05b3a24ad1"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_AO.png",
+            "source_hash": "a7928f615c0009ddb8118c5ff01df4a853521a15",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_AO.png",
+            "target_hash": "4719901b4ed5c36f2beff58b8a4fbadf30d91151"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Color.png",
+            "source_hash": "377eb1b1042a40518e2cdd8bae21e567c1a649e9",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Color.png",
+            "target_hash": "ad0acfb454c36b7b6d3a1cbbdf1f9ef646e3ab21"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Normal.png",
+            "source_hash": "c53f8a27aec0cf52b11020b1df9101ed97205aaf",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Normal.png",
+            "target_hash": "c0e527442b40451520f6e1cf6c49b042dda1a886"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Rough.png",
+            "source_hash": "9d568d92669f4c7580a5ba3f3d95428af0ffd44d",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/Parquet_Rough.png",
+            "target_hash": "ee2c6eb8f1035081f428691e6c7c3e3da6ce0def"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Color.png",
+            "source_hash": "fc8330212363a4a6c1b48d98d4f3349581485d26",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Color.png",
+            "target_hash": "1585def5cda911978e50505efea353edf0c72087"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Normal.png",
+            "source_hash": "d39a2d456d7df3dda8d193e09b9713b00223f7c2",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Normal.png",
+            "target_hash": "be0feb70fe61b8cddcf5741c9b51b060630355ea"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Rough.png",
+            "source_hash": "069d134aa4ae0d0780c3ade044d91970f8987f2a",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WallWood_Rough.png",
+            "target_hash": "83a9cbf4166980cf6d3c457bfc0592b56006f95e"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Color.png",
+            "source_hash": "3b324ca0c69abb839954bc3db52689c06192e728",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Color.png",
+            "target_hash": "b10cbc70493a249a8041949c155a67868241a66a"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Normal.png",
+            "source_hash": "eb97ce4dd27554cc0822827738e78ed3714896e8",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Normal.png",
+            "target_hash": "aaaedf52e4dd86589dccd4a74a99d90c9f1f1673"
+        },
+        {
+            "source_url": "omniverse://localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Rough.png",
+            "source_hash": "669cb3ce7a1bb6cecef6a69ae02b91e420860bda",
+            "target_url": "./localhost/NVIDIA/Assets/Isaac/4.0/Isaac/Environments/Simple_Room/Materials/Textures/WhitePlastic_Rough.png",
+            "target_hash": "9e8584dfa21f797e2d77aecaa3fb02c959746611"
+        }
+    ]
+}

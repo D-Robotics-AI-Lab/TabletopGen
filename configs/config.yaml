@@ -1,0 +1,14 @@
+api_keys:
+  # Doubao API
+  doubao: ""
+  # Hunyuan3D API
+  hunyuan_secret_id: ""
+  hunyuan_secret_key: ""
+  # OpenRouter API
+  gpt_api_key: "" 
+  base_url: "https://openrouter.ai/api/v1"
+
+# Set up proxy settings (if needed)
+proxy:
+  http: ""
+  https: ""

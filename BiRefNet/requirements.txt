@@ -1,0 +1,17 @@
+torch>=2.5.0
+torchvision
+numpy<2
+opencv-python
+timm
+scipy
+scikit-image
+kornia
+einops
+
+tqdm
+prettytable
+tabulate
+ipykernel
+
+huggingface-hub>0.25
+accelerate

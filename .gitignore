@@ -1,0 +1,31 @@
+# === Ignore system and compilation garbage ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.vscode/
+.idea/
+
+# === Ignore all weight files (let users download them themselves) ===
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.weights
+
+# === Ignore logs and output files ===
+*.log
+pipeline.log
+output_scene/
+configs/config.example.yaml
+
+
+# === Ignore virtual environments ===
+venv/
+env/
+.env
+
+# === Explicitly keep necessary scripts ===
+!install_scripts/*.py
+!install_scripts/*.txt
