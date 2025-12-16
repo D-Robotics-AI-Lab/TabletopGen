@@ -155,6 +155,15 @@ For a scene assembly with full physical properties, use the Isaac Sim script.
 python isaac_final_scene.py
 ```
 
+## 💬 Community & Discussion
+
+Please scan the QR code to connect with us on WeChat and join the community for the latest updates and discussions with the authors.
+
+<div align="center">
+  <img src="assets/wechat_qrcode.png" width="200px">
+  <p>Scan to connect with us</p>
+</div>
+
 ## 💝 Acknowledgments
 
 We would like to express our gratitude to the following projects and services that made this work possible:
