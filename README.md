@@ -37,6 +37,7 @@
 <a href="https://arxiv.org/abs/2512.01204"><img src="https://img.shields.io/badge/arXiv-2512.01204-b31b1b.svg" alt="arXiv"></a>
 <a href="https://arxiv.org/pdf/2512.01204"><img src="https://img.shields.io/badge/Paper-PDF-red.svg" alt="Paper"></a>
 <a href="https://d-robotics-ai-lab.github.io/TabletopGen.project/"><img src="https://img.shields.io/badge/Project-Website-blue.svg" alt="Website"></a>
+<a href="https://huggingface.co/datasets/xinjue1/TabletopGen-Assets"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Assets%20%26%20Demos-yellow" alt="Hugging Face"></a>
 
 <br>
 
@@ -48,12 +49,24 @@
 
 ## 🎉 Updates
 
+- **[2025-12-30]** 🤖 We have released the **Robotic Manipulation Demo** code and assets on [Hugging Face](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/manipulation_demo).
+- **[2025-12-30]** 🎨 A **Scene Gallery** containing diverse generated 3D tabletop scenes (GLB format) is now available on [Hugging Face](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/scene_gallery).
 - **[2025-12-10]** 🎉 TabletopGen is now open source!
 
 ## 🧩 Abstract
 
 Generating high-fidelity, physically interactive 3D simulated tabletop scenes is essential for embodied AI—especially for robotic manipulation policy learning and data synthesis. However, current text- or image-driven 3D scene generation methods mainly focus on large-scale scenes, struggling to capture the high-density layouts and complex spatial relations that characterize tabletop scenes. To address these challenges, we propose **TabletopGen**, a training-free, fully automatic framework that generates diverse, instance-level interactive 3D tabletop scenes. TabletopGen accepts a reference image as input, which can be synthesized by a text-to-image model to enhance scene diversity. We then perform instance segmentation and completion on the reference to obtain per-instance images. Each instance is reconstructed into a 3D model followed by canonical coordinate alignment. The aligned 3D models then undergo pose and scale estimation before being assembled into a collision-free, simulation-ready tabletop scene. A key component of our framework is a novel pose and scale alignment approach that decouples the complex spatial reasoning into two stages: a Differentiable Rotation Optimizer for precise rotation recovery and a Top-view Spatial Alignment mechanism for robust translation and scale estimation, enabling accurate 3D reconstruction from 2D reference. Extensive experiments and user studies show that TabletopGen achieves state-of-the-art performance, markedly surpassing existing methods in visual fidelity, layout accuracy, and physical plausibility, capable of generating realistic tabletop scenes with rich stylistic and spatial diversity.
 
+
+## 🎨 Scene Gallery
+
+We release the **18 scenes** showcased on our project website for quick preview and testing. These models cover **diverse scene types** (e.g., office, dining, workshop) and **various styles** (e.g., realistic, cartoon).
+
+| Description | Download |
+| :--- | :---: |
+| **Project Showcase Collection**<br>Contains all 18 high-fidelity interactive scenes featured on our website, demonstrating rich stylistic and spatial diversity. | [**📂 Browse on Hugging Face**](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/scene_gallery) |
+
+> **Note:** All scenes are in `.glb` format with separated distinct instances, ready to be imported into 3D renderers for visualization or assigned physical properties for robotic simulation.
 
 ## 🚀 Installation
 
@@ -154,6 +167,25 @@ For a scene assembly with full physical properties, use the Isaac Sim script.
 # Run the Isaac Sim visualization script
 python isaac_final_scene.py
 ```
+
+## 🤖 Downstream Application: Robotic Manipulation
+
+To demonstrate the physical interactivity and realism of the generated scenes, we provide a **Pick-and-Place** demo using a Franka Emika Panda robot in NVIDIA Isaac Sim.
+
+### Pick & Place Demo
+This demo showcases the robot picking and placing generated objects within the `TabletopGen` scenes, verifying accurate collision meshes and physical properties.
+
+**Get the Demo Kit:**
+Due to the large size of simulation assets, the demo code and USD files are hosted externally.
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Download%20Demo%20Kit-yellow)](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/manipulation_demo)
+
+**How to Run:**
+1. Download the `manipulation_demo` folder from the link above.
+2. Ensure **NVIDIA Isaac Sim** is installed.
+3. Please refer to the detailed guide in `manipulation_demo/README.md` to run the following scripts:
+   * **`pick_place.py`**: Run the interactive pick-and-place demo.
+   * **`collect.py`**: Execute the data collection pipeline.
 
 ## 💬 Community & Discussion
 
