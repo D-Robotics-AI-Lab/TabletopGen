@@ -64,7 +64,7 @@ We release the **18 scenes** showcased on our project website for quick preview 
 
 | Description | Download |
 | :--- | :---: |
-| **Project Showcase Collection**<br>Contains all 18 high-fidelity interactive scenes featured on our website, demonstrating rich stylistic and spatial diversity. | [**📂 Browse on Hugging Face**](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/scene_gallery) |
+| **Project Showcase Collection**<br>Contains all 18 high-fidelity interactive scenes featured on our website. | [**📂 Browse on Hugging Face**](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/scene_gallery) |
 
 > **Note:** All scenes are in `.glb` format with separated distinct instances, ready to be imported into 3D renderers for visualization or assigned physical properties for robotic simulation.
 
