@@ -1,7 +1,9 @@
 <div align="center">
 
-<h1><span style="color: #FF8C00;">T</span>abletopGen: Tabletop Scene <span style="color: #800080;">Gen</span>eration and Interactive Simulation for Robotic Manipulation</h1>
-<h2>ECCV 2026</h2>
+<h3>
+<span style="color: #FF8C00;">T</span>abletopGen: Tabletop Scene <span style="color: #800080;">Gen</span>eration and Interactive Simulation for Robotic Manipulation<br>
+<small>ECCV 2026</small>
+</h3>
 
 <img src="assets/teaser.png" width="100%" alt="Teaser Image">
 
