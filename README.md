@@ -1,7 +1,7 @@
 <div align="center">
 
-<h1><span style="color: #FF8C00;">T</span>abletopGen: Tabletop Scene <span style="color: #800080;">Gen</span>eration and Interactive Simulation for Robotic Manipulation</h1>
-<div style="font-size: 1.3em; font-weight: bold; margin-top: -0.6em; margin-bottom: 0.8em;">ECCV 2026</div>
+<h1><span style="color: #FF7F00;">Tabletop</span><span style="color: #9555B5;">Gen</span>: <span style="color: #FF7F00;">Tabletop</span> Scene <span style="color: #9555B5;">Gen</span>eration and Interactive Simulation for Robotic Manipulation</h1>
+<div style="font-size: 1.9em; font-weight: bold; margin-top: -0.5em; margin-bottom: 0.5em;">ECCV 2026</div>
 
 <img src="assets/teaser.png" width="100%" alt="Teaser Image">
 
