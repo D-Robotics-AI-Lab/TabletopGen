@@ -1,20 +1,21 @@
 <div align="center">
 
-<h1><span style="color: #FF8C00;">T</span>abletopGen: <span style="color: #800080;">I</span>nstance-Level Interactive 3D Tabletop Scene Generation from Text or Single Image</h1>
+<h1><span style="color: #FF8C00;">T</span>abletopGen: Tabletop Scene <span style="color: #800080;">Gen</span>eration and Interactive Simulation for Robotic Manipulation</h1>
+<h2>ECCV 2026</h2>
 
 <img src="assets/teaser.png" width="100%" alt="Teaser Image">
 
 <br>
 
 <div style="font-size: 1.5em;">
-    <strong>Ziqian Wang</strong><sup>1,3,2*</sup>,
-    <strong>Yonghao He</strong><sup>2*†</sup>,
+    <strong>Ziqian Wang</strong><sup>1,3,2</sup>,
+    <strong>Yonghao He</strong><sup>2†</sup>,
     <strong>Licheng Yang</strong><sup>1,3</sup>,
     <strong>Wei Zou</strong><sup>1,3</sup>,
     <strong>Hongxuan Ma</strong><sup>3</sup>,
     <strong>Liu Liu</strong><sup>4</sup>,
     <br>
-    <strong>Wei Sui</strong><sup>2</sup>,
+    <strong>Wei Sui</strong><sup>2✉</sup>,
     <strong>Yuxin Guo</strong><sup>1,3</sup>,
     <strong>Hu Su</strong><sup>3✉</sup>
 </div>
@@ -29,7 +30,7 @@
 </div>
 
 <div style="font-size: 1.5em;font-weight: bold;">
-    <sup>*</sup><u>Equal contribution</u> &emsp; <sup>†</sup><u>Project Lead</u> &emsp; <sup>✉</sup><u>Corresponding author</u>
+    <sup>†</sup><u>Project Leader</u> &emsp; <sup>✉</sup><u>Corresponding author</u>
 </div>
 
 <br>
@@ -49,13 +50,20 @@
 
 ## 🎉 Updates
 
+- **[2026-06-18]** 🎉 TabletopGen has been accepted to **ECCV 2026**!
 - **[2025-12-30]** 🤖 We have released the **Robotic Manipulation Demo** code and assets on [Hugging Face](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/manipulation_demo).
 - **[2025-12-30]** 🎨 A **Scene Gallery** containing diverse generated 3D tabletop scenes (GLB format) is now available on [Hugging Face](https://huggingface.co/datasets/xinjue1/TabletopGen-Assets/tree/main/scene_gallery).
 - **[2025-12-10]** 🎉 TabletopGen is now open source!
 
 ## 🧩 Abstract
 
-Generating high-fidelity, physically interactive 3D simulated tabletop scenes is essential for embodied AI—especially for robotic manipulation policy learning and data synthesis. However, current text- or image-driven 3D scene generation methods mainly focus on large-scale scenes, struggling to capture the high-density layouts and complex spatial relations that characterize tabletop scenes. To address these challenges, we propose **TabletopGen**, a training-free, fully automatic framework that generates diverse, instance-level interactive 3D tabletop scenes. TabletopGen accepts a reference image as input, which can be synthesized by a text-to-image model to enhance scene diversity. We then perform instance segmentation and completion on the reference to obtain per-instance images. Each instance is reconstructed into a 3D model followed by canonical coordinate alignment. The aligned 3D models then undergo pose and scale estimation before being assembled into a collision-free, simulation-ready tabletop scene. A key component of our framework is a novel pose and scale alignment approach that decouples the complex spatial reasoning into two stages: a Differentiable Rotation Optimizer for precise rotation recovery and a Top-view Spatial Alignment mechanism for robust translation and scale estimation, enabling accurate 3D reconstruction from 2D reference. Extensive experiments and user studies show that TabletopGen achieves state-of-the-art performance, markedly surpassing existing methods in visual fidelity, layout accuracy, and physical plausibility, capable of generating realistic tabletop scenes with rich stylistic and spatial diversity.
+Simulation provides a low-cost, scalable pathway to large-scale robotic manipulation data collection. However, existing 3D scene generation methods can rarely be applied directly to manipulation data synthesis, as their generated scenes often lack instance-level interactivity and physical plausibility.
+
+Focusing on tabletop manipulation, we propose **TabletopGen**, a training-free and automated tabletop scene generation and interactive simulation engine. Starting from text or a single image, we first obtain independent 3D object models via generative instance extraction. Second, we introduce a novel pose and scale alignment approach that recovers a collision-free scene layout using a Differentiable Rotation Optimizer and a Top-View Spatial Alignment mechanism.
+
+Finally, we assemble the generated scene in a physics simulator with collision geometry, yielding a stable, interactable environment for synthesizing multimodal manipulation data. Extensive experiments and user studies demonstrate that TabletopGen achieves state-of-the-art performance in visual fidelity, layout accuracy, and physical plausibility.
+
+Furthermore, we validate the executability of the collected trajectories on a real robotic arm via zero-shot real-to-sim-to-real policy transfer, indicating that TabletopGen can serve as a reliable data engine for robotic manipulation data synthesis.
 
 
 ## 🎨 Scene Gallery
