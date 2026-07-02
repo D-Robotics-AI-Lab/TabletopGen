@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1><span style="color: #FF7F00;">Tabletop</span><span style="color: #9555B5;">Gen</span>: <span style="color: #FF7F00;">Tabletop</span> Scene <span style="color: #9555B5;">Gen</span>eration and Interactive Simulation for Robotic Manipulation</h1>
-<div style="font-size: 1.9em; font-weight: bold; margin-top: -0.5em; margin-bottom: 0.5em;">ECCV 2026</div>
+<h2>ECCV 2026</h2>
 
 <img src="assets/teaser.png" width="100%" alt="Teaser Image">
 
